@@ -14,4 +14,21 @@ public class User {
     public void resetPassword(String newPassword) {
         this.password = newPassword;
     }
+
+    public String getUserID() {
+        return userID;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getUserType() {
+        return userType;
+    }
+
 }

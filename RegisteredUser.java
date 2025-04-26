@@ -26,4 +26,9 @@ public class RegisteredUser {
         System.out.println("Donot contain user: " + user.toString());
         return false;
     }
+
+    public List<User> getListOfUsers() {
+        return listOfUsers;
+    }
+
 }
